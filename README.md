@@ -1,2 +1,2 @@
 # desafio-netflix
-Projeto prático utilizando HTML, CSS e JavaScript criando um clone da interface da Netflix (Código baseado nas aulas de 08/20)
+Projeto prático utilizando *HTML, CSS, JavaScripit e JQuery* criando um clone simples da interface da Netflix que pode ser melhorado mais a frente.
