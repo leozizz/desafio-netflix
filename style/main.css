@@ -62,7 +62,7 @@ header nav a:hover{
 }
 
 .titulo{
-    margin-top: 15%;
+    margin-top: 15%; /*A ideia de porcentagens é para a responsividade em dispositivos diferentes, como os mobile. (Não é algo obrigatório utilizar porcentagens em todos elementos)*/
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
@@ -77,14 +77,28 @@ header nav a:hover{
     font-size: 12px;
 
     cursor:pointer;
-    transition: .3s ease all; /*Animação do botão*/
+    transition: .3s ease all; /*Tempo de animação do botão*/
 }
 
-.botao:hover{
+.botao:hover{ /* hover -> irá disparar uma animação quando o mouse passar em cima do elemento, neste caso irá inverter as cores do botão */
     background-color: white;
     color: black;
 }
 
 .botao i{
     margin-right: 5px;
+}
+
+.container {    /*Classe "Wrapper", organiza diversos elementos em uma caixa -> Importante pesquisar sobre.*/
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
